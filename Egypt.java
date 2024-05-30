@@ -18,6 +18,6 @@ public class Egypt {
 		}
 	}
 	public static boolean pitagoras(int a, int b, int c) {
-		return Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2);
+		return Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2) || Math.pow(c, 2) + Math.pow(b, 2) == Math.pow(a, 2) || Math.pow(c, 2) + Math.pow(a, 2) == Math.pow(b, 2);
 	}
 }
